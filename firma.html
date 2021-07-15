@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+
+<style>
+  * {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  body, a {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: #707070;
+  }
+  img { display: block; }
+
+  .email-signature {
+    background-color:#E9E9E9;
+    width: 800px;
+  }
+
+  .signature-body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .profile {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: .5rem;
+  }
+
+  .info li { margin: 4px 0; }
+  .name, .surname {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .name { color: #FF6700; }
+  .company { color: #FF6700; font-weight: bold; }
+
+  .social-links img {
+    margin-top: 6px;
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin-right: .5rem;
+  }
+
+  .profile-img {
+    width: 125px;
+    height: 125px;
+  }
+  .brand-img {
+    display: block;
+    width: 300px;
+  }
+
+  .signature-footer {
+    border-top: 3px solid #FF6700;
+    padding: .5rem;
+  }
+  .signature-footer img {
+    display: inline-block;
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+  }
+  .signature-footer p {
+    display: inline;
+    color: #357c38;
+    font-weight: bold;
+  }
+
+</style>
+
+<body>
+  <div class="email-signature">
+    <div class="signature-body">
+      <section class="profile">
+        <img src="https://multitestresources.com/archivos/fotos/rodolfo.png" class="profile-img" alt="">
+        <div class="info">
+          <ul>
+            <li class="name">Rodofo Armando</li>
+            <li class="surname">Martínez Arias</li>
+            <li class="position">Director</li>
+            <li class="email"><a href="mailto:rodolfomartinezarias@multitestresources.com">rodolfomartinezarias@multitestresources.com</a></li>
+            <li>(+51) 990-890-990</li>
+            <li><a class="company" href="www.multitestresources.com">www.multitestresources.com</a></li>
+          </ul>
+          <div class="social-links">
+            <a href="https://www.facebook.com/multitestresources" target="_blank"><img src="http://multitestinnovation.site/firmas/face.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/multitestresources/?viewAsMember=true" target="_blank"><img src="http://multitestinnovation.site/firmas/linke.png" alt=""></a>
+          </div>
+        </div>
+      </section>
+      <section class="brand">
+        <img src="http://multitestinnovation.site/firmas/firma4.png" class="brand-img" alt="">
+      </section>
+    </div>
+
+    <div class="signature-footer">
+      <img src="green_leaf.svg" alt="">
+      <p>Todos queremos un mundo verde, nosotros hacemos algo por él. El ahorro de papel es una forma de salvar los árboles.</p>
+    </div>
+  </div>
+</body>
+</html>
